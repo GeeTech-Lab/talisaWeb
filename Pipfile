@@ -8,6 +8,7 @@ django = "*"
 boto3 = "*"
 django-storages = "*"
 django-heroku = "*"
+heroku = "*"
 
 [dev-packages]
 

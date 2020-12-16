@@ -1,1 +1,0 @@
-web: gunicorn talisa_app --log-file -
