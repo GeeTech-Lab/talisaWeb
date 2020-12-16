@@ -19,10 +19,11 @@ from django.contrib import admin
 from django.urls import path, re_path
 from django.views.generic import TemplateView
 
+from talisa_app.views import HomeView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', TemplateView.as_view(template_name='index.html'), name='home'),
+    path('', HomeView.as_view(), name='home'),
 ]
 
 # url to catch any unmatch url for 404...
