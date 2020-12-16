@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a63a88a1-da52-42f3-9c7f-09440325a8ad" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/talisa_app/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/talisa_app/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,8 +28,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/talisa_app/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="129" selection-start-line="129" selection-start-column="2" selection-end-line="136" selection-end-column="66" />
+            <state relative-caret-position="484">
+              <caret line="148" selection-start-line="148" selection-end-line="148" />
               <folding>
                 <element signature="e#311#335#0" expanded="true" />
               </folding>
@@ -159,15 +160,16 @@
       <workItem from="1607901871307" duration="914000" />
       <workItem from="1607937083344" duration="275000" />
       <workItem from="1607937404137" duration="24232000" />
-      <workItem from="1608102571150" duration="10082000" />
+      <workItem from="1608102571150" duration="11878000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35503000" />
+    <option name="totallyTimeSpent" value="37299000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15332326" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -183,7 +185,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32711864" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32711864" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -256,8 +258,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/talisa_app/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="129" selection-start-line="129" selection-start-column="2" selection-end-line="136" selection-end-column="66" />
+        <state relative-caret-position="484">
+          <caret line="148" selection-start-line="148" selection-end-line="148" />
           <folding>
             <element signature="e#311#335#0" expanded="true" />
           </folding>
