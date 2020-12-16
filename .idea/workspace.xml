@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a63a88a1-da52-42f3-9c7f-09440325a8ad" name="Default Changelist" comment="" />
+    <list default="true" id="a63a88a1-da52-42f3-9c7f-09440325a8ad" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/talisa_app/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/talisa_app/settings.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,29 +16,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="398" column="40" lean-forward="true" selection-start-line="398" selection-start-column="40" selection-end-line="398" selection-end-column="40" />
-              <folding>
-                <element signature="e#116#1113#0#HTML" />
-                <element signature="e#1212#2696#0#HTML" />
-                <element signature="e#2783#4224#0#HTML" />
-                <element signature="e#4311#7700#0#HTML" />
-                <element signature="e#7528#7591#0#HTML" expanded="true" />
-                <element signature="e#7632#7638#1#HTML" expanded="true" />
-                <element signature="e#7785#10084#0#HTML" />
-              </folding>
+            <state relative-caret-position="186">
+              <caret line="407" lean-forward="true" selection-start-line="407" selection-end-line="407" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/404.html">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/talisa_app/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="28">
-              <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+            <state relative-caret-position="96">
+              <caret line="129" selection-start-line="129" selection-start-column="2" selection-end-line="136" selection-end-column="66" />
+              <folding>
+                <element signature="e#311#335#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -61,17 +58,21 @@
       <replace>/</replace>
     </replaceStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/talisa_app/urls.py" />
-        <option value="$PROJECT_DIR$/talisa_app/settings.py" />
         <option value="$PROJECT_DIR$/static/css/style.css" />
         <option value="$PROJECT_DIR$/templates/404.html" />
         <option value="$PROJECT_DIR$/templates/footer.html" />
         <option value="$PROJECT_DIR$/templates/layout.html" />
         <option value="$PROJECT_DIR$/templates/navbar.html" />
         <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/talisa_app/settings.py" />
       </list>
     </option>
   </component>
@@ -80,19 +81,32 @@
     <option name="width" value="710" />
     <option name="height" value="735" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="talisa_app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="talisa_app" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
@@ -145,22 +159,24 @@
       <updated>1607901868394</updated>
       <workItem from="1607901871307" duration="914000" />
       <workItem from="1607937083344" duration="275000" />
-      <workItem from="1607937404137" duration="22282000" />
+      <workItem from="1607937404137" duration="24232000" />
+      <workItem from="1608102571150" duration="9359000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23471000" />
+    <option name="totallyTimeSpent" value="34780000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11329305" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.15407854" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3220339" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32542372" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -169,7 +185,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3338983" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32711864" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -195,16 +211,6 @@
           <caret line="27" column="41" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
           <folding>
             <element signature="e#634#666#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/talisa_app/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="134" column="34" selection-start-line="134" selection-start-column="34" selection-end-line="134" selection-end-column="34" />
-          <folding>
-            <element signature="e#311#335#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -240,18 +246,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="398" column="40" lean-forward="true" selection-start-line="398" selection-start-column="40" selection-end-line="398" selection-end-column="40" />
+        <state relative-caret-position="186">
+          <caret line="407" lean-forward="true" selection-start-line="407" selection-end-line="407" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/talisa_app/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="129" selection-start-line="129" selection-start-column="2" selection-end-line="136" selection-end-column="66" />
           <folding>
-            <element signature="e#116#1113#0#HTML" />
-            <element signature="e#1212#2696#0#HTML" />
-            <element signature="e#2783#4224#0#HTML" />
-            <element signature="e#4311#7700#0#HTML" />
-            <element signature="e#7528#7591#0#HTML" expanded="true" />
-            <element signature="e#7632#7638#1#HTML" expanded="true" />
-            <element signature="e#7785#10084#0#HTML" />
+            <element signature="e#311#335#0" expanded="true" />
           </folding>
         </state>
       </provider>

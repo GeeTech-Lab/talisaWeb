@@ -125,11 +125,11 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static')
 ]
 
-MEDIA_ROOT = os.path.join(BASE_DIR, 'static/images')
+MEDIA_ROOT = os.path.join(BASE_DIR, 'static/img')
 
-# AWS_ACCESS_KEY_ID = ' AKIARWPUAY2F4BSNOI7X'
-# AWS_SECRET_ACCESS_KEY = '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'
-# AWS_STORAGE_BUCKET_NAME = 'talisa-web'
+# AWS_ACCESS_KEY_ID = 'AKIARWPUAY2F5M2AGNUC'
+# AWS_SECRET_ACCESS_KEY = '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'
+# AWS_STORAGE_BUCKET_NAME = 'talisa-app'
 # AWS_S3_FILE_OVERWRITE = False
 # AWS_DEFAULT_ACL = None
 # AWS_S3_REGION_NAME = 'eu-west-2'
@@ -146,3 +146,13 @@ CSRF_COOKIE_SECURE = False
 SECURE_HSTS_SECONDS = None
 SECURE_HSTS_INCLUDE_SUBDOMAINS = False
 SECURE_FRAME_DENY = False
+
+
+# SMTP Configuration
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'smtp-relay.sendinblue.com'
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
+EMAIL_HOST_USER = 'info@talisagroup.com'
+DEFAULT_FROM_EMAIL = 'Talisa HMO <info@talisagroup.com >'
+EMAIL_HOST_PASSWORD = 'zpkO63gPFSLX4amH'
