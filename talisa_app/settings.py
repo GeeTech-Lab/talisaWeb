@@ -26,7 +26,7 @@ SECRET_KEY = 'b))_ey+0t1k8-mnbi2dv++bgm#pr9n!h83^l6u6w!^2b0o8f0a'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
@@ -163,3 +163,8 @@ EMAIL_USE_TLS = True
 EMAIL_HOST_USER = 'info@talisagroup.com'
 DEFAULT_FROM_EMAIL = 'Talisa HMO <info@talisagroup.com >'
 EMAIL_HOST_PASSWORD = 'zpkO63gPFSLX4amH'
+
+
+# Configure Django App for Heroku.
+import django_heroku
+django_heroku.settings(locals())
