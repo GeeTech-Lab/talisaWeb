@@ -2,7 +2,7 @@
   <header id="header" class="fixed-top ">
     <div class="container d-flex align-items-center">
         <div class="logo me-auto">
-            <a class="navbar-brand" href="/">
+            <a class="navbar-brand" href="{% url 'home' %}">
                 <img class="img-responsive" src="https://talisa-hmo.s3.eu-west-2.amazonaws.com/images/Talisa_logo1.png" alt="Talisa" style="width:150px;">
             </a>
         </div>
@@ -11,7 +11,7 @@
 
       <nav class="nav-menu d-none d-lg-block">
         <ul>
-          <li class="active"><a href="/">Home</a></li>
+          <li class="active"><a href="{% url 'home' %}">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#services">Services</a></li>
 {#          <li><a href="#portfolio">Portfolio</a></li>#}
