@@ -43,6 +43,7 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -129,13 +130,13 @@ AWS_LOCATION = 'static'
 AWS_S3_FILE_OVERWRITE = False
 
 #Static Settings...
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles', 'static_cdn')
 STATIC_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/{AWS_LOCATION}/'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static'),
 ]
 STATICFILES_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
-STATIC_ROOT = os.path.join(BASE_DIR, 'static_cdn', 'staticfiles')
-# STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 # cloudinary media setups for images and videos
 MEDIA_URL = '/img/'
