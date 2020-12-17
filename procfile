@@ -1,1 +1,1 @@
-web: gunicorn talisa_app.wsgi --log-file -
+web gunicorn talisa_app.wsgi --log-file -
