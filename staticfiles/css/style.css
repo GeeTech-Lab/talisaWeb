@@ -2,7 +2,8 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+  /*font-family: "Open Sans", sans-serif;*/
+  font-family: 'Ubuntu', sans-serif;
   color: #444444;
 }
 
