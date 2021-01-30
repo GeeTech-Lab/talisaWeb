@@ -24,6 +24,7 @@ from talisa_app.views import HomeView
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', HomeView.as_view(), name='home'),
+    path("terms&condition/", TemplateView.as_view(template_name='terms&condition.html'), name='terms&conditions')
 ]
 
 # url to catch any unmatch url for 404...
