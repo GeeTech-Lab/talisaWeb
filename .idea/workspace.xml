@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a63a88a1-da52-42f3-9c7f-09440325a8ad" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/footer.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,11 +19,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/talisa_app/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-181">
-              <caret line="145" column="65" selection-start-line="145" selection-end-line="145" selection-end-column="65" />
+            <state relative-caret-position="308">
+              <caret line="166" column="40" lean-forward="true" selection-start-line="166" selection-start-column="40" selection-end-line="166" selection-end-column="40" />
               <folding>
                 <element signature="e#311#335#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="8924">
+              <caret line="388" column="40" lean-forward="true" selection-start-line="388" selection-start-column="40" selection-end-line="388" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -65,10 +75,10 @@
         <option value="$PROJECT_DIR$/templates/layout.html" />
         <option value="$PROJECT_DIR$/static/css/style.css" />
         <option value="$PROJECT_DIR$/templates/index.html" />
-        <option value="$PROJECT_DIR$/templates/footer.html" />
         <option value="$PROJECT_DIR$/talisa_app/urls.py" />
         <option value="$PROJECT_DIR$/templates/terms&amp;condition.html" />
         <option value="$PROJECT_DIR$/templates/navbar.html" />
+        <option value="$PROJECT_DIR$/templates/footer.html" />
       </list>
     </option>
   </component>
@@ -96,7 +106,7 @@
             <path>
               <item name="talisa_app" type="b2602c69:ProjectViewProjectNode" />
               <item name="talisa_app" type="462c0819:PsiDirectoryNode" />
-              <item name="talisa_app" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -172,16 +182,17 @@
       <workItem from="1611939176489" duration="7935000" />
       <workItem from="1612211129296" duration="848000" />
       <workItem from="1612427963933" duration="612000" />
+      <workItem from="1621435758741" duration="595000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75154000" />
+    <option name="totallyTimeSpent" value="75749000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.30674848" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30664653" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -302,13 +313,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="38" column="87" selection-start-line="38" selection-start-column="71" selection-end-line="38" selection-end-column="87" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/talisa_app/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
@@ -338,19 +342,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3">
-          <caret line="380" column="27" selection-start-line="380" selection-start-column="27" selection-end-line="380" selection-end-column="27" />
-          <folding>
-            <element signature="e#152#1120#0#HTML" />
-            <element signature="e#2897#4298#0#HTML" />
-          </folding>
+        <state relative-caret-position="8924">
+          <caret line="388" column="40" lean-forward="true" selection-start-line="388" selection-start-column="40" selection-end-line="388" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="76" column="10" lean-forward="true" selection-start-line="76" selection-start-column="10" selection-end-line="76" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/talisa_app/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-181">
-          <caret line="145" column="65" selection-start-line="145" selection-end-line="145" selection-end-column="65" />
+        <state relative-caret-position="308">
+          <caret line="166" column="40" lean-forward="true" selection-start-line="166" selection-start-column="40" selection-end-line="166" selection-end-column="40" />
           <folding>
             <element signature="e#311#335#0" expanded="true" />
           </folding>
